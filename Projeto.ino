@@ -4,6 +4,7 @@ LiquidCrystal lcd(12,11,5,4,3,2);
 
 float vetCorrente[300];
 
+
 void setup() {
   Serial.begin(9600);
   pinMode(A0, INPUT);
