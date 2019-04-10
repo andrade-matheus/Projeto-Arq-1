@@ -105,7 +105,6 @@ void loop() {
         conteudo.toUpperCase();    
       }
       if(conteudo.substring(1) == comparar){
-        energia = 0;
         comparar = "";
         liberou = false;
         Serial.println("ACESSO ENCERRADO !!!");
